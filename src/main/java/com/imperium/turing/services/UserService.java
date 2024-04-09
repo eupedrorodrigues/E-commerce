@@ -13,6 +13,8 @@ import com.imperium.turing.repositories.UserRepository;
 import com.imperium.turing.services.exceptions.DatabaseException;
 import com.imperium.turing.services.exceptions.ResourceNotFoundException;
 
+import jakarta.persistence.EntityNotFoundException;
+
 
 @Service
 public class UserService {
@@ -45,9 +47,14 @@ public class UserService {
 	}
 	
 	public User udpate(Long id, User obj) {
-		User entity = repository.getReferenceById(id);
-		updateData(entity, obj);
-		return repository.save(entity);
+		try {
+			User entity = repository.getReferenceById(id);
+			updateData(entity, obj);
+			return repository.save(entity);
+		}catch(EntityNotFoundException e) {
+			throw new ResourceNotFoundException(id);
+		}
+		
 	}
 
 	private void updateData(User entity, User obj) {
