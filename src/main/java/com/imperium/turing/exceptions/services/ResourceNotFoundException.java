@@ -1,4 +1,4 @@
-package com.imperium.turing.services.exceptions;
+package com.imperium.turing.exceptions.services;
 
 public class ResourceNotFoundException extends RuntimeException{
 

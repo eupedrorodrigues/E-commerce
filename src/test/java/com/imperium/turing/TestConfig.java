@@ -1,4 +1,4 @@
-package com.imperium.turing.config;
+package com.imperium.turing;
 
 import java.time.Instant;
 import java.util.Arrays;
@@ -22,7 +22,7 @@ import com.imperium.turing.repositories.ProductRepository;
 import com.imperium.turing.repositories.UserRepository;
 
 @Configuration
-@Profile("test")
+@Profile("dev")
 public class TestConfig implements CommandLineRunner{
 
 	@Autowired

@@ -1,4 +1,4 @@
-package com.imperium.turing.resources;
+package com.imperium.turing.controller;
 
 import java.net.URI;
 import java.util.List;

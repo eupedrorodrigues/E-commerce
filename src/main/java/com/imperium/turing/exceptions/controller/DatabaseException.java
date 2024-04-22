@@ -1,4 +1,4 @@
-package com.imperium.turing.services.exceptions;
+package com.imperium.turing.exceptions.controller;
 
 public class DatabaseException extends RuntimeException{
 

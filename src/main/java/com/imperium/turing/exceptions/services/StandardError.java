@@ -1,4 +1,4 @@
-package com.imperium.turing.resources.exceptions;
+package com.imperium.turing.exceptions.services;
 
 import java.io.Serializable;
 import java.time.Instant;

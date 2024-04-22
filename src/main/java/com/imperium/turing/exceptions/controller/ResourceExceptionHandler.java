@@ -1,4 +1,4 @@
-package com.imperium.turing.resources.exceptions;
+package com.imperium.turing.exceptions.controller;
 
 import java.time.Instant;
 
@@ -7,8 +7,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import com.imperium.turing.services.exceptions.DatabaseException;
-import com.imperium.turing.services.exceptions.ResourceNotFoundException;
+import com.imperium.turing.exceptions.services.ResourceNotFoundException;
+import com.imperium.turing.exceptions.services.StandardError;
 
 import jakarta.servlet.http.HttpServletRequest;
 

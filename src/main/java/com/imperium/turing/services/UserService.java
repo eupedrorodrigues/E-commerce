@@ -9,9 +9,9 @@ import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 
 import com.imperium.turing.entities.User;
+import com.imperium.turing.exceptions.controller.DatabaseException;
+import com.imperium.turing.exceptions.services.ResourceNotFoundException;
 import com.imperium.turing.repositories.UserRepository;
-import com.imperium.turing.services.exceptions.DatabaseException;
-import com.imperium.turing.services.exceptions.ResourceNotFoundException;
 
 import jakarta.persistence.EntityNotFoundException;
 
