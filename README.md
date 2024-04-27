@@ -38,7 +38,7 @@ DELETE /api/users/id - Deleta um usuário por id;
 * ### Product
 ```
 POST /api/products - Insere um novo produto;
-GET /api/products - Retorna todos os produto;
+GET /api/products - Retorna todos os produto cadastrados;
 PUT /api/products/id - Atualiza informações do produto;
 DELETE /api/products/id - Deleta um produto;
 ```
@@ -46,7 +46,7 @@ DELETE /api/products/id - Deleta um produto;
 * ### Order
 ```
 POST /api/orders - Insere um novo pedido;
-GET /api/orders - Retorna todos os pedidos;
+GET /api/orders - Retorna todos os pedidos cadastrados;
 PUT /api/orders/id - Atualiza informações do pedido;
 DELETE /api/orders/id - Deleta um pedido;
 ```
@@ -54,7 +54,7 @@ DELETE /api/orders/id - Deleta um pedido;
 * ### Category
 ```
 POST /api/categories - Insere uma nova categoria;
-GET /api/categories - Retorna todos as categorias;
+GET /api/categories - Retorna todas as categorias cadastrados;
 PUT /api/categories/id - Atualiza informações da categoria;
 DELETE /api/categories/id - Deleta uma categoria;
 ```
