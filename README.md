@@ -1,5 +1,5 @@
 # Ecommerce_system
-O projeto é um API utilizada para cadastrar, consultar, editar e deletar as entidades Categoria, Pedido, Item do pedido, Pagamento, Produto e Usuário.
+O projeto é um API utilizada para cadastrar, consultar, editar e deletar as entidades Categoria, Pedido, Produto e Usuário.
 ## Índice
 
 * [Instalação](#instalação)
